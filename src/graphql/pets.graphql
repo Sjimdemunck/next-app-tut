@@ -1,0 +1,8 @@
+query getPets {
+    pets {
+        type
+        name
+        age
+        owner
+    }
+}

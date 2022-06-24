@@ -1,0 +1,12 @@
+query getUsers {
+  users {
+    id
+    name
+    email
+    pets {
+      name
+    }
+    createdAt
+    updatedAt
+  }
+}
