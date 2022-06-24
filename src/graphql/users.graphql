@@ -1,12 +1,15 @@
 query getUsers {
-  users {
-    id
-    name
-    email
-    pets {
-      name
-    }
-    createdAt
-    updatedAt
-  }
+	users {
+		id
+		name
+		email
+		pets {
+			name
+			type
+			owner
+			age
+		}
+		createdAt
+		updatedAt
+	}
 }

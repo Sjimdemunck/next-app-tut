@@ -49,7 +49,7 @@ export type GetPetsQuery = { __typename?: 'Query', pets: Array<{ __typename?: 'P
 export type GetUsersQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GetUsersQuery = { __typename?: 'Query', users: Array<{ __typename?: 'User', id: string, name: string, email: string, createdAt: any, updatedAt: any, pets: Array<{ __typename?: 'Pet', name: string }> }> };
+export type GetUsersQuery = { __typename?: 'Query', users: Array<{ __typename?: 'User', id: string, name: string, email: string, createdAt: any, updatedAt: any, pets: Array<{ __typename?: 'Pet', name: string, type: string, owner: string, age: number }> }> };
 
 
 export const GetPetsDocument = gql`
@@ -70,6 +70,9 @@ export const GetUsersDocument = gql`
     email
     pets {
       name
+      type
+      owner
+      age
     }
     createdAt
     updatedAt

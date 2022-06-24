@@ -1,7 +1,6 @@
 import "reflect-metadata";
 import { ApolloServer } from "apollo-server-micro";
 import { buildSchema } from "type-graphql";
-
 import { UsersResolver } from "../../src/schema/users.resolver";
 import { PetsResolver } from "../../src/schema/pets.resolver";
 

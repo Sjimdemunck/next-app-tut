@@ -20,7 +20,7 @@ export class PetsResolver {
             {
                 type: "dog",
                 owner: "Jane Doe",
-                name: "Baas",
+                name: "Arf",
                 age: 2,
             },
             {

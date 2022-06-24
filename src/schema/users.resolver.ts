@@ -31,7 +31,7 @@ export class UsersResolver {
                  pets: [{
                     type: "dog",
                     owner: "Jane Doe",
-                    name: "Baas",
+                    name: "Arf",
                     age: 2
                 },
                 {
@@ -43,7 +43,7 @@ export class UsersResolver {
                 email: "Jane-doe@example.org",
                 createdAt: new Date('2022-06-06'),
                 updatedAt: new Date(Date.now())
-                 }
+            }
         ];
     }
 }
