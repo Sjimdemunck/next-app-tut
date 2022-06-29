@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { dehydrate, useQuery } from "react-query";
 
 import { queryClient, getUsers, getPets } from "../src/api";
