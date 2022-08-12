@@ -1,3 +1,11 @@
+Little project I did which had the goal to get some experience in:
+- react query
+- prisma
+- code gen gql
+- Next SSR SGR(serversideprops/staticprops.. etc)
+- UI lib Mantine 
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
